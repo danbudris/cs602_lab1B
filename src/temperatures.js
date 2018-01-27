@@ -1,8 +1,10 @@
+const math = require('mathjs');
+
 convertF = (temp, mode) => {
   if (mode == "c") {
     returntmp = (temp - 32) * math.fraction('5/9'); 
   }
-  if (mode == "k" {
+  if (mode == "k") {
     returntmp = (temp + 459.67) * math.fraction('5/9');
   }
   return returntmp;

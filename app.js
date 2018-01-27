@@ -1,5 +1,4 @@
-const temps = require("./src/temperature.js");
+const temps = require("./src/temperatures.js");
 
-temp.ConvertF();
-temp.ConvertC();
-temp.ConvertK();
+temps.Fahrenheit(50, 'c');
+temps.Celsius(50, 'f');
